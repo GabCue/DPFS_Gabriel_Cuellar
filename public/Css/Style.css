@@ -1,0 +1,212 @@
+body{
+    margin: 0%;
+    background-color: rgb(255, 153, 102);
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(231, 154, 39);
+    padding: 0;
+    margin: 0;
+    height: 120px;
+    width: 100%;
+
+
+
+}
+.hsup{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.subh{
+    display: flex;
+    align-items: center;
+    background-color: rgb(197, 126, 72);
+    justify-content: space-between;
+    width: 100%; 
+    padding: 5px; 
+    margin: 0; /
+  
+  
+}
+.btn {
+    font-weight: bold; 
+}
+.hicons{
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+
+}
+.user{
+    width: 1500px;
+}
+.alogo{
+    width: 120px;
+    height: 100px;
+    padding: 0; 
+    margin: 0; 
+    line-height: 0; 
+    border: 0;
+}
+
+.logo{
+    display: block; 
+    width: auto; 
+    max-height: 80px; 
+    margin: 6px; 
+    padding: 0;
+}
+main{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 20px; 
+    max-width: 1650px;
+    background-color: rgb(248, 240, 175);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   margin-bottom: 0;
+}
+.center interface{
+    padding: 500px;
+}
+/*-------------------------------------*/
+.grandd {
+    display: flex;
+    width: 100%;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.subdiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.containerdi {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    position: relative; 
+}
+
+.divimg {
+    height: 150px;
+    transition: transform 0.3s ease; 
+    border-radius: 10px; 
+}
+
+.divtitle {
+    position: absolute;
+    top: 10px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    color: white; 
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
+.containerdi:hover .divimg {
+    transform: scale(1.05);
+}
+/*-------------------------------------*/
+.carousel {
+    background-color: rgb(248, 240, 175);
+    margin: 10px;
+    margin-top: 20px
+    
+}
+
+.carimg{
+    
+    max-width: 80%; 
+    height: 80%;
+    margin: 0 auto;
+}
+
+/*-------------------------------------------------*/
+.cards-container {
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+} 
+.card { 
+    position: relative;  
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+} 
+.card:hover { 
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} 
+.card-img-top { 
+height: 150px; 
+object-fit: cover;
+} 
+
+.card-img-overlay { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+} 
+.card:hover 
+
+.card-img-overlay { 
+    opacity: 1; 
+
+ 
+}
+.cardProduct{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.cardTitle{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+.card-title{
+    margin: 0;
+    
+}
+.cardProduct{
+    margin-top: 120px;
+}
+/*-------------------------*/
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(146, 90, 57);
+    padding: 45px;
+}
+.fi{
+    margin: 7px;
+}
