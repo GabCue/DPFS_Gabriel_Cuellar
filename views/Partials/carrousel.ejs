@@ -1,0 +1,18 @@
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <% products.forEach((productRow, index) => { %>
+        <div class="carousel-item <%= index === 0 ? 'active' : '' %>">
+            <div class="row">
+                <% productRow.forEach((product) => { %>
+                    <%- include('element', { item: product }) %>
+                <% }); %>
+            </div>
+        </div>
+        <% }); %>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="[_{{{CITATION{{{_1{](https://github.com/Manan-Nagpal1311/E-Commerce/tree/5f338bc7ae99687217d221e1391f0ebda7aa3aa2/index.js)[_{{{CITATION{{{_2{](https://github.com/dallasclarke/ejs-movies/tree/3caeb2cfdbc7699ba1377c2e495e63cc79b55bd9/app.js)[_{{{CITATION{{{_3{](https://github.com/dpakach/check-text/tree/9c98d60062818a542be1178c26d869223332d85e/server.js)[_{{{CITATION{{{_4{](https://github.com/venomaze/csrf-scenarios/tree/2ee67957f9a0319c894dce74106874054f39692c/scenario-6%2Fattacker%2Fserver.js)[_{{{CITATION{{{_5{](https://github.com/dhasane/admin-bd/tree/a61cf1d0b4d1f546383e37095ad8b83c0dc33b33/pantallas%2FpantallaElementosQueLePertenecen.php)[_{{{CITATION{{{_6{](https://github.com/krishnadheerajp/krishnadheerajp.github.io/tree/0e41803e74609647f6b1c76c9c162c40777b523e/GRIP%20%20Internship%2Ftransfer.php)[_{{{CITATION{{{_7{](https://github.com/JSlondono/TBEL/tree/79de4b2ad1965f96ee45f636473672cfd8c9fd71/login%2Fdashboard%2Fcarrusel%2Findex.php)[_{{{CITATION{{{_8{](https://github.com/savindu-pasintha/jeweller/tree/d6fac4aa6e35532072dc708dd5024989c05ff1c7/bootstrap-5.0.0-beta2%2Fsite%2Fcontent%2Fdocs%2F5.0%2Fcomponents%2Fcarousel.md)
