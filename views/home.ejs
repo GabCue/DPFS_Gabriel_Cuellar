@@ -11,6 +11,7 @@
     <%- include('partials/header') %>
 
     <main>
+        <!-- Carrusel de imágenes -->
         <div class="center interface">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -20,27 +21,15 @@
                 </div>
 
                 <div class="carousel-inner" data-bs-interval="1000">
-                    <div class="carousel-item active">
-                        <img src="<%= carouselImages[0] %>" class="d-block w-100 carimg" alt="...">
-                        <div class="carousel-caption">
-                            <h5>Impresiones</h5>
-                            <p>Nuevos productos</p>
+                    <% carouselImages.forEach((carouselImage, index) => { %>
+                        <div class="carousel-item <%= index === 0 ? 'active' : '' %>">
+                            <img src="<%= carouselImage.image %>" class="d-block w-100 carimg" alt="<%= carouselImage.alt %>">
+                            <div class="carousel-caption">
+                                <h5><%= carouselImage.title %></h5>
+                                <p>Descripción de la imagen</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="1500">
-                        <img src="<%= carouselImages[1] %>" class="d-block w-100 carimg" alt="...">
-                        <div class="carousel-caption">
-                            <h5>Cartas</h5>
-                            <p>Nuevos ingresos de Cartas</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="1500">
-                        <img src="<%= carouselImages[2] %>" class="d-block w-100 carimg" alt="...">
-                        <div class="carousel-caption">
-                            <h5>Hobbys</h5>
-                            <p>Articulos para Hobby</p>
-                        </div>
-                    </div>
+                    <% }) %>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -52,33 +41,37 @@
                 </button>
             </div>
         </div>
+
+        <!-- Sección de productos -->
         <div class="grandd">
             <div class="subdiv">
                 <div class="containerdi">
                     <img src="/Images/digital.png" class="divimg" alt="<%= productImages[0].alt %>">
-                    <h5 class="divtitle"><%= productImages[0].title %></h5>
+                    <h5 class="divtitle">Producto Digital</h5>
                 </div>
                 <div class="containerdi">
                     <img src="/Images/Juegos de mesa.png" class="divimg" alt="<%= productImages[1].alt %>">
-                    <h5 class="divtitle"></h5>
+                    <h5 class="divtitle">Producto Fisico</h5>
                 </div>
             </div>
         </div>
+
+        <!-- Lista de productos -->
         <div class="container mt-4">
             <div class="row">
                 <% products.forEach(function(product) { %>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <a href="<%= product.link %>" class="text-decoration-none">
                         <div class="card text-bg-dark">
-                            <img src="<%= product.img %>" class="card-img" alt="<%= product.imgAlt %>">
+                            <img src="<%= product.imagen %>" class="card-img" alt="<%= product.imgAlt %>">
                             <div class="card-img-overlay hover-content">
                                 <div class="cardProduct">
                                     <div class="cardTitle">
-                                        <h5 class="card-title"><%= product.title %></h5>
-                                        <p class="card-text"><%= product.label %></p>
+                                        <h5 class="card-title"><%= product.nombre %></h5>
+                                        <p class="card-text"><%= product.categoria %></p>
                                     </div>
-                                    <div class="Price"> 
-                                        <p class="card-text"><large><%= product.price %></large></p>
+                                    <div class="Price">
+                                        <p class="card-text"><large><%= product.precio %></large></p>
                                     </div>  
                                 </div>
                             </div>

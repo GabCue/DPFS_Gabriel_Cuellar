@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "first_name": "Carlos",
+      "last_name": "Gómez",
+      "email": "carlos.gomez@example.com",
+      "ip_address": "192.168.1.1"
+    },
+    {
+      "id": 2,
+      "first_name": "Laura",
+      "last_name": "Fernández",
+      "email": "laura.fernandez@example.com",
+      "ip_address": "192.168.1.2"
+    },
+    {
+      "id": 3,
+      "first_name": "Miguel",
+      "last_name": "Rodríguez",
+      "email": "miguel.rodriguez@example.com",
+      "ip_address": "192.168.1.3"
+    },
+    {
+      "id": 4,
+      "first_name": "Ana",
+      "last_name": "Martínez",
+      "email": "ana.martinez@example.com",
+      "ip_address": "192.168.1.4"
+    },
+    {
+      "id": 5,
+      "first_name": "Sergio",
+      "last_name": "López",
+      "email": "sergio.lopez@example.com",
+      "ip_address": "192.168.1.5"
+    },
+    {
+      "id": 6,
+      "first_name": "Paula",
+      "last_name": "Díaz",
+      "email": "paula.diaz@example.com",
+      "ip_address": "192.168.1.6"
+    },
+    {
+      "id": 7,
+      "first_name": "Daniel",
+      "last_name": "Hernández",
+      "email": "daniel.hernandez@example.com",
+      "ip_address": "192.168.1.7"
+    },
+    {
+      "id": 8,
+      "first_name": "Elena",
+      "last_name": "Pérez",
+      "email": "elena.perez@example.com",
+      "ip_address": "192.168.1.8"
+    },
+    {
+      "id": 9,
+      "first_name": "Javier",
+      "last_name": "Ruiz",
+      "email": "javier.ruiz@example.com",
+      "ip_address": "192.168.1.9"
+    },
+    {
+      "id": 10,
+      "first_name": "Sofía",
+      "last_name": "García",
+      "email": "sofia.garcia@example.com",
+      "ip_address": "192.168.1.10"
+    }
+  ]
+  
