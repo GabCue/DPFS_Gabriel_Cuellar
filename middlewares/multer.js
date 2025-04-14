@@ -1,16 +1,30 @@
 const multer = require("multer");
 const path = require("path");
 
-const storage = multer.diskStorage({
-  destination: (req, file, cb) => {
-    cb(null, path.join(__dirname, "../public/images/products"));  // Ruta donde se guardan las imágenes
+const storageProd = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, path.join(__dirname, "../public/images/products"));
   },
-  filename: (req, file, cb) => {
-    const fileExtension = path.extname(file.originalname);  // Obtener la extensión del archivo
-    cb(null, Date.now() + fileExtension);  // Nombre único basado en la fecha
+  filename: function (req, file, cb) {
+    const fileName = "prod-" + Date.now() + path.extname(file.originalname);
+    cb(null, fileName);
   },
 });
 
-const upload = multer({ storage: storage });
+const storageUser = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, path.join(__dirname, "../public/images/users"));
+  },
+  filename: function (req, file, cb) {
+    const fileName = "avatar-" + Date.now() + path.extname(file.originalname);
+    cb(null, fileName);
+  },
+});
 
-module.exports = upload;
+const uploadProd = multer({ storage: storageProd });
+const uploadUser = multer({ storage: storageUser });
+
+module.exports = {
+  uploadProd,
+  uploadUser,
+};

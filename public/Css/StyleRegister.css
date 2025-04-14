@@ -29,7 +29,7 @@ header{
     padding: 0;
 }
 main{
-    width: 98%;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -41,11 +41,11 @@ main{
    margin-bottom: 0;
 }
 /*--------------------------*/
-.centerRegister{
+.centerLogin{
     display: flex;
     background-color: rgb(255, 153, 102);
     width: 750px;
-    height: 600px;
+    height: 700px;
     border-radius: 20px;
     flex-direction: column;
     align-items: center;
@@ -70,6 +70,25 @@ main{
     height: 95%;
     border-radius: 20px;
 }
+.alert-danger {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #f44336; /* Rojo para error */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
 .user{
     margin-top: 0px;
     display: flex;
@@ -90,8 +109,7 @@ label{
     color: #ffffff; 
 
 }
-.elementRegister{
-    width: 100%;
+.elementLogin{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,7 +129,7 @@ label{
     padding: 3px;
     border-radius: 5px;
 }
-/*-------------------------*/
+
 footer{
     display: flex;
     justify-content: center;

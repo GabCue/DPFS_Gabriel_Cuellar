@@ -6,7 +6,7 @@
     "precio": "50000",
     "categoria": "Juegos de mesa",
     "imagen": "/Images/Exportarprovisorio.png",
-    "alt": "Cartas",
+    "alt": "Cartass",
     "descripción": " ejemplo ejemplo ejemplo ejemplo ejemplo ejemplo"
   },
   {
@@ -41,11 +41,11 @@
   },
   {
     "id": 5,
-    "nombre": "dddddddddddd",
+    "nombre": "ioliol",
     "tipo_de_producto": "digital",
-    "precio": "55555",
-    "categoria": "ddddddddd",
+    "precio": "55",
+    "categoria": "yuuyky",
     "imagen": "default.png",
-    "alt": "asdad"
+    "alt": "sda"
   }
 ]

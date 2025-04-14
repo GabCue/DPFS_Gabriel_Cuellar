@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "first_name": "Carlos",
+    "last_name": "Gómez",
+    "email": "carlos.gomez@example.com",
+    "role": "admin",
+    "ip_address": "192.168.1.1",
+    "password": "$2b$10$R0Dpxtytdv.BOJmNOFo4yukH/9mT2G5zq28NlZvFY0z0o7cVAmkqK",
+    "avatar": ""
+  },
+  {
+    "id": 2,
+    "first_name": "Laura",
+    "last_name": "Fernándezzz",
+    "email": "laura.fernandezzz@example.com",
+    "role": "admin",
+    "ip_address": "192.168.1.2",
+    "password": "$2b$10$6hlK.bJI9U/zYdYPdX4cvOnumwtu2ggIEcOQunEf.FMiUeZOp6SKi",
+    "avatar": "avatar-1743987931184.PNG"
+  },
+  {
+    "id": 3,
+    "first_name": "Prueba",
+    "last_name": "Prueba",
+    "email": "Prueba@gmail.com",
+    "role": "user",
+    "ip_address": "::1",
+    "password": "$2b$10$rLaYRHn0oaqpdBHHsrgLDeszpCQd42niOUpcZwr3qDkDaVqulVhYC",
+    "avatar": "default.jpg"
+  },
+  {
+    "id": 1,
+    "first_name": "Prueba",
+    "last_name": "Prueba",
+    "email": "Prueba@gmail.com",
+    "password": "$2b$10$QHoS.WsqpW7WBx86UZDnpumNQrkw6.eR71jqm9x6ddsXZKUHOhp.q",
+    "avatar": "default.jpg"
+  }
+]
