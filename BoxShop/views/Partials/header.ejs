@@ -1,0 +1,27 @@
+<header>
+    <div class="hsup">
+        <a href="/" class="alogo"><img src="/Images/logo provisorio.png" alt="Logo de la empresa" class="logo"></a>
+
+        <div class="hicons">
+            <a href=""><i class="fa-solid fa-magnifying-glass fa-xl" style="color: #121d20;"></i></a>
+            <a href="/views/Cart.html" class="headicons"><i class="fa-solid fa-cart-shopping fa-xl" style="color: #121d20;"></i></a>
+            <a href=""><i class="fa-solid fa-bell fa-xl" style="color: #121d20;"></i></a>
+            <a href=""><i class="fa-solid fa-envelope fa-xl" style="color: #121d20;"></i></a>
+            <a href="<%= userLogged ? '/users/profile' : '/users/login' %>">
+                <i class="fa-solid fa-circle-user fa-2xl" style="color: #121d20;"></i>
+              </a>
+              
+        </div>
+    </div>
+    <ul class="nav subh">
+        <li class="nav-item">
+            <button type="button" class="btn" onclick="window.location.href='https://example.com'">Categorias</button>
+        </li>
+        <li class="nav-item">
+            <button type="button" class="btn" onclick="window.location.href='/ruta-local'">Populares</button>
+        </li>
+        <li class="nav-item">
+            <button type="button" class="btn" onclick="window.location.href='/ruta-local'">Novedades</button>
+        </li>
+    </ul>
+</header>

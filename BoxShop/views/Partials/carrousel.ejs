@@ -1,0 +1,31 @@
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <% for (let i = 0; i < products.length; i += 4) { %>
+            <div class="carousel-item <%= i === 0 ? 'active' : '' %>">
+                <div class="row">
+                    <% for (let j = i; j < i + 4 && j < products.length; j++) { %>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="/images/products/<%= products[j].imagen %>" class="card-img-top" alt="<%= products[j].alt %>">
+                                <div class="card-body">
+                                    <h5 class="card-title"><%= products[j].nombre %></h5>
+                                    <p class="card-text">Precio: $<%= products[j].precio %></p>
+                                    <a href="/products/detail/<%= products[j].id %>" class="btn btn-primary">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                    <% } %>
+                </div>
+            </div>
+        <% } %>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>

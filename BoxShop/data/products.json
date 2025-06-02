@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cartas",
+    "tipo_de_producto": "digital",
+    "precio": "50000",
+    "categoria": "Juegos de mesa",
+    "imagen": "/Images/Exportarprovisorio.png",
+    "alt": "Cartass",
+    "descripción": " ejemplo ejemplo ejemplo ejemplo ejemplo ejemplo"
+  },
+  {
+    "id": 2,
+    "nombre": "Set Pintura",
+    "tipo_de_producto": "digital",
+    "precio": "70000",
+    "categoria": "sadad",
+    "imagen": "/Images/Exportarprovisorio.png",
+    "alt": "Set Pinturaasdasdk",
+    "descripción": " ejemplo ejemplo ejemplo ejemplo ejemplo ejemplo"
+  },
+  {
+    "id": 3,
+    "nombre": "Soporte de celular (STL)",
+    "tipo_de_producto": "Digital",
+    "precio": 2000,
+    "categoria": "STL",
+    "imagen": "/Images/Exportarprovisorio.png",
+    "alt": "Soporte de celular STL",
+    "descripción": " ejemplo ejemplo ejemplo ejemplo ejemplo ejemplo"
+  },
+  {
+    "id": 4,
+    "nombre": "Hg Robot",
+    "tipo_de_producto": "Fisico",
+    "precio": 50000,
+    "categoria": "Model Kit, HG",
+    "imagen": "/Images/Exportarprovisorio.png",
+    "alt": "Hg Robot",
+    "descripción": " ejemplo ejemplo ejemplo ejemplo ejemplo ejemplo"
+  },
+  {
+    "id": 5,
+    "nombre": "ioliol",
+    "tipo_de_producto": "digital",
+    "precio": "55",
+    "categoria": "yuuyky",
+    "imagen": "default.png",
+    "alt": "sda"
+  }
+]

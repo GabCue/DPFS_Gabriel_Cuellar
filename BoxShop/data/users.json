@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "first_name": "Carlos",
+    "last_name": "Gómez",
+    "email": "carlos.gomez@example.com",
+    "role": "admin",
+    "ip_address": "192.168.1.1",
+    "password": "$2b$10$R0Dpxtytdv.BOJmNOFo4yukH/9mT2G5zq28NlZvFY0z0o7cVAmkqK",
+    "avatar": ""
+  },
+  {
+    "id": 2,
+    "first_name": "Laura",
+    "last_name": "Fernándezzz",
+    "email": "laura.fernandezzz@example.com",
+    "role": "admin",
+    "ip_address": "192.168.1.2",
+    "password": "$2b$10$6hlK.bJI9U/zYdYPdX4cvOnumwtu2ggIEcOQunEf.FMiUeZOp6SKi",
+    "avatar": "avatar-1743987931184.PNG"
+  },
+  {
+    "id": 3,
+    "first_name": "Prueba",
+    "last_name": "Prueba",
+    "email": "Prueba@gmail.com",
+    "role": "user",
+    "ip_address": "::1",
+    "password": "$2b$10$rLaYRHn0oaqpdBHHsrgLDeszpCQd42niOUpcZwr3qDkDaVqulVhYC",
+    "avatar": "default.jpg"
+  },
+  {
+    "id": 1,
+    "first_name": "Prueba",
+    "last_name": "Prueba",
+    "email": "Prueba@gmail.com",
+    "password": "$2b$10$QHoS.WsqpW7WBx86UZDnpumNQrkw6.eR71jqm9x6ddsXZKUHOhp.q",
+    "avatar": "default.jpg"
+  },
+  {
+    "id": 2,
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "password": "$2b$10$gnyl6gQJwGLRw2Oq688yRetNW/ksWXhGTb19Z8Iks7PpdTJcoSdZq",
+    "avatar": "default.jpg"
+  },
+  {
+    "id": 3,
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "password": "$2b$10$rHVYeJ5j1b4WbDbedmkXVeUcmLOHmuaivYppFUSC/Z4T2vhDXLGNW",
+    "avatar": "default.jpg"
+  },
+  {
+    "id": 4,
+    "first_name": "eferf",
+    "last_name": "",
+    "email": "",
+    "password": "$2b$10$6oMDX7CTK8YXKgAn1k.1ceGn0GK4UXnmY/5KdJuPu3.MMa2uSACnm",
+    "avatar": "default.jpg"
+  },
+  {
+    "id": 5,
+    "first_name": "12345678",
+    "last_name": "12345678",
+    "email": "12345678@gmail.com",
+    "password": "$2b$10$4IdX0DBOKVl9XH3WiY0whe10XtoNxDw46fStXsrWjHTQCJqWL2oA6",
+    "avatar": "default.jpg"
+  },
+  {
+    "id": 1,
+    "first_name": "12345",
+    "last_name": "6789",
+    "email": "123456789@gmail.com",
+    "password": "$2b$10$gezoh0nmTXy5b39JELg6ZuU756gXJ2kcH5g/IX1ZLtYwqM9ww6o7e",
+    "avatar": "default.jpg"
+  },
+  {
+    "id": 2,
+    "first_name": "montoto",
+    "last_name": "montoto",
+    "email": "montoto@gmail.com",
+    "password": "$2b$10$MfaAgdVXr4KXQU1zxJi.x.TbOpsvFly/VG2.Mmhw7e7hZWzuNIqRG",
+    "avatar": "default.jpg"
+  },
+  {
+    "id": 3,
+    "first_name": "manolo",
+    "last_name": "manolo",
+    "email": "manolo@gmail.com",
+    "password": "$2b$10$Oa4BemdhmjTxsLz9km.JouM8FKiptN9rEcdgKLedqpV7s8I/5MvjS",
+    "avatar": "default.jpg"
+  }
+]
