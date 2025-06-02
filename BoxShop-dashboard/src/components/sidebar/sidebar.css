@@ -1,0 +1,10 @@
+.sidebar img {
+  width: 250px;
+  padding: 15px;
+}
+
+.sidebar {
+  min-height: 100vh;
+  border-right: 2mm ridge rgba(211, 220, 50, 0.6);
+  background-color: rgb(235, 128, 28);
+}
